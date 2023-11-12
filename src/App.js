@@ -16,7 +16,7 @@ import Faqs from './Pages/FAQs/Faqs';
 function App() {
 const routes=createBrowserRouter(createRoutesFromElements(
  <Route path='/' element={<Layout/>}>
-  <Route index path='/home' element={<Home/>}/>
+  <Route index  element={<Home/>}/>
   <Route path='/contact' element={<Contacts/>}/>
   <Route path='/about-us' element={<About/>}/>
   <Route path='/services' element={<Services/>}/>

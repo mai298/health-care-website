@@ -20,7 +20,7 @@ export default function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto d-flex gap-3">
-              <Link to='/home' style={{ textDecoration: "none",
+              <Link to='/' style={{ textDecoration: "none",
     color: "inherit", marginTop:"8px"
     }}>Home</Link>
               <NavDropdown title="Pages" id="basic-nav-dropdown">
