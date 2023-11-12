@@ -1,0 +1,56 @@
+.service-card{
+    background-image: url("../assets/bg.png");
+    background-color: #fff ;
+    background-size: cover;
+width: 22rem !important;
+    height: 23rem;
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.img-border{
+    width: 7rem;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid #eeeefa !important;
+    background-color: #fff !important;
+}
+.service-content h3{
+    color: #1f2278 ;
+    font-weight: bold;
+}
+.service-content p{
+    color: #6f6f6f;
+    max-width: 16rem;
+}
+
+.serviceBtn
+{
+    width: 10rem;
+    height: 3rem;
+    background-color:#e1e2f6 !important;
+    border: 1px solid #e1e2f6 !important;
+    color: #5b5fd0  !important;
+    cursor: pointer;
+}
+
+
+.serviceBtn:hover
+{
+    background-color:#6065c1 !important;
+    color: white !important;
+
+}
+
+@keyframes mover {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+
+.sevImg:hover{
+    animation: mover 0.5s infinite alternate;
+}

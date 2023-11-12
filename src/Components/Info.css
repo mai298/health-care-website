@@ -1,0 +1,16 @@
+ .years{
+    width: 15rem;
+    border: 2px solid #565acf;
+    height:  15rem;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;     
+    border-top-left-radius: 40px;
+    background-color: white;
+}
+
+.years:hover{
+background-color:#e6e7ff;
+transition: .2s ease-in-out;
+
+}

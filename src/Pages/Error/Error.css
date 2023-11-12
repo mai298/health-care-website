@@ -1,0 +1,14 @@
+.backBtn{
+    background-color: #565acf !important;
+    border: 1px solid  #565acf;
+    color: white;
+    font-size: 18px !important;
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    transition: all .5s;
+}
+.backBtn:hover{
+    background-color:#494db0!important;
+    border:1px solid #494db0;
+}

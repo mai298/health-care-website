@@ -1,0 +1,18 @@
+.log{
+ background: url("../../assets/bg-booking.png"); 
+ background-size: cover; 
+}
+
+.form-cont{
+    position:  relative !important; 
+    background-color: #fff;
+    width: 20rem !important;
+    height: 30rem !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+
+}
+
+
+
+

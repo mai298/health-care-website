@@ -1,0 +1,27 @@
+.banner{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
+ }
+
+ .banner h2{
+    color: var(--main-color)!important;
+    font-size: 60px !important;
+    line-height: 120px !important;
+    font-weight: bold !important;
+ }
+ .banner li{
+    background-color: #565acf;
+    border: 1px solid #565acf;
+    color: #fff;
+    height: 50px;
+    width: 250px;
+    line-height: 50px;
+    border-radius: 8px;
+    font-size: 17px;
+ }
+ .banner li a{
+    color: #fff !important;
+    margin:0 20px;
+ }

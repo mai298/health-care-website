@@ -1,0 +1,100 @@
+
+
+.about .square{
+    
+    animation: moversql 8s infinite alternate-reverse;
+    float: inline-end;
+}
+
+
+@keyframes moversql {
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+}
+.about-content h4{
+    color: var(--secondary-color) ;
+    font-weight: bold;
+}
+.about-content h1{
+    color: #1f2278;
+    font-weight: 700;
+    line-height: 55px;
+}
+.about-content p{
+    color: #6a6a6a;
+    line-height: 25px;
+}
+
+
+
+
+li{
+width: 13rem;
+height: auto;
+}
+
+.first li ,.second li{
+    color: #282b7d !important;
+    padding-top: 10px;
+    font-size: 18px;
+    border: 3px solid #cff6fc !important;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.second li{
+    border: 3px solid #ffd6d6 !important;
+
+}
+
+.about .doctor{
+border-top-right-radius: 40px;
+border-bottom-right-radius: 40px;
+border-bottom-left-radius: 40px;
+
+
+}
+
+.about .child{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;    
+    border-top-left-radius: 50px;
+    }
+
+    .about .nurse{
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;  
+        border-bottom-right-radius: 40px;    
+        border-top-left-radius: 40px;
+        }
+
+        .about .years{
+            background-color: #e6e7ff;
+            width: 12rem;
+            border: 2px solid #565acf;
+            height:  12rem;
+            border-top-right-radius: 40px;
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px;     
+            border-top-left-radius: 40px;
+        }
+
+        .readBtn{
+
+            background-color: #565acf !important;
+            border: 1px solid  #565acf;
+            color: white;
+            float:left; 
+            line-height: 40px;
+            text-decoration: none;
+            font-size: 18px !important;
+            width: 150px;
+            height: 45px;
+            text-transform: uppercase;
+            border-radius: 10px;
+            transition: all .5s;
+        }
